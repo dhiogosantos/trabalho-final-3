@@ -1,0 +1,10 @@
+#footer{
+    background-color: var(--azul-profundo);
+    color: white;
+    height: 35px;
+}
+
+#footer > a {
+    margin-left: 50px;
+    color: white;
+}

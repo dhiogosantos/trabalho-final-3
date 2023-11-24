@@ -1,0 +1,83 @@
+@import 'cores.css';
+
+.search-container {
+    position: relative;
+    flex-grow: 1; /* Permite que o campo de busca ocupe o espaço restante */
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem; /* Tamanho da fonte ajustado para combinar com o cabeçalho */
+}
+
+/* Estilos para o ícone de lupa */
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.2rem; /* Ajuste o tamanho da fonte do ícone, se necessário */
+}
+
+/* Estilos para o cabeçalho */
+.conteiner-header {
+    background-color: var(--azul-profundo);
+    height: 60px;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center; /* Alinhar verticalmente os elementos do cabeçalho */
+    justify-content: space-between;
+    color: var(--branco);
+    padding: 0 20px; /* Adicione espaço ao redor dos elementos no cabeçalho */
+}
+
+nav{
+    margin: 0 20px;
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    flex-wrap: nowrap;
+    margin: 0 30px;
+}
+
+nav > a{
+    color: var(--nuvem-carregada) !important;
+    margin: 5px;
+    display: inline-block;
+    padding: 6px 5px !important;
+    width: 20%;
+    text-align: center;
+    background-color: var(--mar-profundo);
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: var(--azul-sereno);
+    color: var(--nuvem-carregada) !important;
+    box-shadow: 0 0 10px var(--azul-sereno);
+    border-radius: 3px;
+    text-decoration: none !important;
+}
+
+/* .conteiner-header > nav > a > img {
+    height: 20px;
+    width: 20px;
+    margin-right: 15px !important;
+} */
+
+@media (max-width: 730px) {
+    .item-navegacao > img{
+        width: 15px !important;
+        filter: invert();
+    }
+}
+
+.item-navegacao > img{
+    width: 30px;
+    filter: invert();
+}

@@ -1,0 +1,28 @@
+@import 'cores.css';
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cinza-brita);
+    min-height: calc(100vh - 100px);
+}
+
+.chat{
+    height: 100% !important;
+    background-color: var(--);
+    overflow-y: auto;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mensagem{
+    background-color: var(--cinza-carvao);
+    margin: 5px;
+    padding: 10px;
+    width: 80%;
+    color: var(--branco-neve);
+    border-radius: 10px;
+    font-size: 1.1rem;
+}

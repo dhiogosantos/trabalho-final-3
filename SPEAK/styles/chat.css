@@ -1,0 +1,56 @@
+@import 'cores.css';
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--branco-neve);
+    min-height: calc(100vh - 100px);
+}
+
+.chat{
+    height: 100% !important;
+    background-color: var(--branco-neve);
+    overflow-y: auto;
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 140px;
+}
+
+.mensagem{
+    background-color: var(--cinza-fumaca);
+    margin: 5px;
+    padding: 10px;
+    width: 80%;
+    color: var(--cinza-asfalto);
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.container-enviar-mensagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    margin: 0 10px 0 10px;
+
+    border-radius: 10px;
+}
+
+.conteiner-input-button-mensagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+textarea{
+    resize: none;
+    margin: 5px;
+}
+
+.enviar-mensagem-button{
+    background-color: var(--azul-profundo);
+    color: white;
+}

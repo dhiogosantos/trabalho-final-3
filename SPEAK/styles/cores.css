@@ -1,0 +1,20 @@
+/* arquivo contendo as cores do projeto */
+:root{
+    --preto: #111111;
+    --branco: #eeeeee;
+
+    /* tons de azul e sombras */
+    --azul-profundo: #00307A;
+    --mar-profundo: #0061A6;
+    --azul-sereno: #5dade2;
+    --nuvem-carregada: #d0d3db;
+
+
+    /* tons de cinza */
+    --cinza-asfalto: #303030;
+    --cinza-carvao: #484848;
+    --cinza: #53555c;
+    --cinza-brita: #8C8C8B;
+    --cinza-fumaca: #e4e4e4;
+    --branco-neve: rgb(250, 250, 250);
+}
